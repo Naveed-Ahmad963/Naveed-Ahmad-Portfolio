@@ -1,0 +1,1571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Naveed Ahmad - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Project tile: hide details until hover, show GitHub link */
+      .project .text {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition:
+          opacity 0.22s ease,
+          transform 0.22s ease,
+          visibility 0.22s;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 18px;
+        border-radius: 6px;
+      }
+      .project:hover .text {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+      .project .text h3 {
+        margin-bottom: 6px;
+      }
+      .project .github-link {
+        color: #222;
+        text-decoration: none;
+      }
+      .project .github-link:hover {
+        text-decoration: underline;
+      }
+      .js-toast-container {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+        pointer-events: none;
+      }
+      .js-toast {
+        min-width: 280px;
+        max-width: 360px;
+        padding: 0.9rem 1rem;
+        border-radius: 0.85rem;
+        color: #fff;
+        font-size: 0.95rem;
+        box-shadow: 0 16px 34px rgba(15, 23, 42, 0.18);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        pointer-events: auto;
+      }
+      .js-toast--success {
+        background: #198754;
+      }
+      .js-toast--error {
+        background: #dc3545;
+      }
+      .js-toast__close {
+        background: transparent;
+        border: none;
+        color: inherit;
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        margin-left: 0.75rem;
+      }
+      .js-spinner {
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid rgba(255, 255, 255, 0.65);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: spin 0.75s linear infinite;
+        margin-left: 0.65rem;
+        display: none;
+      }
+      .js-spinner.is-visible {
+        display: inline-block;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#home-section"
+          >Naveed Ahmad<span>.</span></a
+        >
+        <button
+          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link"><span>About</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills-section" class="nav-link"><span>Skills</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#services-section" class="nav-link"
+                ><span>Services</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#projects-section" class="nav-link"
+                ><span>Projects</span></a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#blog-section" class="nav-link"><span>Blog</span></a>
+            </li> -->
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home-section" class="hero">
+      <div class="home-slider owl-carousel">
+        <div class="slider-item">
+          <div class="overlay"></div>
+          <div class="container-fluid px-md-0">
+            <div
+              class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+              data-scrollax-parent="true"
+            >
+              <div
+                class="one-third order-md-last img"
+                style="background-image: url(images/2222222.png)"
+              >
+                <div class="overlay"></div>
+                <div class="overlay-1"></div>
+              </div>
+              <div
+                class="one-forth d-flex align-items-center ftco-animate"
+                data-scrollax=" properties: { translateY: '70%' }"
+              >
+                <div class="text">
+                  <span class="subheading">Hello! This is Naveed Ahmad</span>
+                  <h1 class="mb-4 mt-3">
+                    MERN Stack <span>Developer</span> Building Modern Web
+                    Applications
+                  </h1>
+                  <p>
+                    <a href="#contact-section" class="btn btn-primary"
+                      >Hire me</a
+                    >
+                    <a
+                      href="NAVEED-ADMAD-CV.pdf"
+                      download="Naveed-Ahmad-cv.pdf"
+                      class="btn btn-primary btn-outline-primary"
+                      >Download CV</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item">
+          <div class="overlay"></div>
+          <div class="container-fluid px-md-0">
+            <div
+              class="row d-flex no-gutters slider-text align-items-end justify-content-end"
+              data-scrollax-parent="true"
+            >
+              <div
+                class="one-third order-md-last img"
+                style="background-image: url(images/555555555.png)"
+              >
+                <div class="overlay"></div>
+                <div class="overlay-1"></div>
+              </div>
+              <div
+                class="one-forth d-flex align-items-center ftco-animate"
+                data-scrollax=" properties: { translateY: '70%' }"
+              >
+                <div class="text">
+                  <span class="subheading">MERN Stack Developer</span>
+
+                  <h1 class="mb-4 mt-3">
+                    Turning Ideas Into <span>Powerful</span> Web Solutions.
+                  </h1>
+                  <p>
+                    <a href="#contact-section" class="btn btn-primary"
+                      >Hire me</a
+                    >
+                    <a
+                      href="NAVEED-ADMAD-CV.pdf"
+                      download="naveed-ahmad-cv.pdf"
+                      class="btn btn-primary btn-outline-primary"
+                      >Download CV</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-counter img bg-light" id="section-counter">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-3 justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18 d-flex">
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <span class="flaticon-suitcase"></span>
+              </div>
+              <div class="text">
+                <strong class="number" data-number="20">0</strong>
+                <span>Projects Completed</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-3 justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18 d-flex">
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <span class="flaticon-web-programming"></span>
+              </div>
+              <div class="text">
+                <strong class="number" data-number="100">0</strong>
+                <span>100% Responsive sites</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-3 justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18 d-flex">
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <span class="flaticon-coffee"></span>
+              </div>
+              <div class="text">
+                <strong class="number" data-number="150">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-3 justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18 d-flex">
+              <div
+                class="icon d-flex justify-content-center align-items-center"
+              >
+                <span class="flaticon-calendar"></span>
+              </div>
+              <div class="text">
+                <strong class="number" data-number="3">0</strong>
+                <span>Years Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="ftco-about ftco-section ftco-no-pt ftco-no-pb"
+      id="about-section"
+    >
+      <div class="container">
+        <div class="row d-flex no-gutters">
+          <!-- About Image -->
+          <div class="col-md-6 col-lg-5 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <div class="overlay"></div>
+              <div
+                class="img d-flex align-self-stretch align-items-center"
+                style="background-image: url(images/7777777.png)"
+              ></div>
+            </div>
+          </div>
+
+          <!-- About Content -->
+          <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+            <div class="py-md-5">
+              <div class="row justify-content-start pb-3">
+                <div class="col-md-12 heading-section ftco-animate">
+                  <span class="subheading">About Me</span>
+
+                  <h2
+                    class="mb-4"
+                    style="font-size: 34px; text-transform: capitalize"
+                  >
+                    Passionate Full Stack MERN Developer
+                  </h2>
+
+                  <p>
+                    I'm a passionate Full Stack MERN Developer who enjoys
+                    building modern, responsive, and scalable web applications.
+                    I specialize in creating clean user interfaces and robust
+                    backend systems using React, Node.js, Express.js, MongoDB,
+                    and other modern web technologies. My goal is to deliver
+                    high-quality solutions that provide great user experiences
+                    and solve real-world problems.
+                  </p>
+
+                  <ul class="about-info mt-4 px-md-0 px-2">
+                    <li class="d-flex">
+                      <span>Name:</span>
+                      <span>Naveed Ahmad</span>
+                    </li>
+
+                    <li class="d-flex">
+                      <span>Role:</span>
+                      <span>Full Stack MERN Developer</span>
+                    </li>
+
+                    <li class="d-flex">
+                      <span>Experience:</span>
+                      <span>3+ Years Experience</span>
+                    </li>
+
+                    <li class="d-flex">
+                      <span>Location:</span>
+                      <span>Pakistan</span>
+                    </li>
+
+                    <li class="d-flex">
+                      <span>Email:</span>
+                      <span>naveedahmad.codes@gmail.com</span>
+                    </li>
+
+                    <li class="d-flex">
+                      <span>Availability:</span>
+                      <span>Open to Freelance & Full-Time Opportunities</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-light" id="skills-section">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <span class="subheading">Skills</span>
+            <h2 class="mb-4">My Skills</h2>
+            <p>
+              Passionate about building responsive, high-performance websites
+              and web applications using modern JavaScript technologies and
+              industry best practices.
+            </p>
+          </div>
+        </div>
+        <div class="row progress-circle mb-5">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
+              <div class="progress mx-auto" data-value="95">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    95<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">React.js</h2>
+              <div class="progress mx-auto" data-value="92">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    92<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Redux</h2>
+              <div class="progress mx-auto" data-value="88">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    88<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">React Query</h2>
+              <div class="progress mx-auto" data-value="87">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    87<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Next.js</h2>
+              <div class="progress mx-auto" data-value="88">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    88<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Node.js</h2>
+              <div class="progress mx-auto" data-value="90">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    90<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Express.js</h2>
+              <div class="progress mx-auto" data-value="88">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    88<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">MongoDB</h2>
+              <div class="progress mx-auto" data-value="88">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    88<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Supabase</h2>
+              <div class="progress mx-auto" data-value="80">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    80<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Mongoose</h2>
+              <div class="progress mx-auto" data-value="85">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    85<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Cloudinary</h2>
+              <div class="progress mx-auto" data-value="78">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    78<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+              <div class="progress mx-auto" data-value="98">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    98<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+              <div class="progress mx-auto" data-value="95">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    95<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Sass</h2>
+              <div class="progress mx-auto" data-value="90">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    90<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Tailwind</h2>
+              <div class="progress mx-auto" data-value="88">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    88<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">Git</h2>
+              <div class="progress mx-auto" data-value="92">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    92<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="bg-white rounded-lg shadow p-4">
+              <h2 class="h5 font-weight-bold text-center mb-4">GitHub</h2>
+              <div class="progress mx-auto" data-value="92">
+                <span class="progress-left">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <span class="progress-right">
+                  <span class="progress-bar border-primary"></span>
+                </span>
+                <div
+                  class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <div class="h2 font-weight-bold">
+                    92<sup class="small">%</sup>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section" id="services-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+            <span class="subheading">Services</span>
+            <h2 class="mb-4">What I can do for you</h2>
+            <p>
+              I deliver end-to-end web solutions with modern frontend, backend,
+              database, and API expertise for scalable, performant applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-web-programming"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Full Stack Web Development</h3>
+                <p>
+                  I build scalable and secure full-stack web applications using
+                  React, Node.js,Express.js, and MongoDB.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-3d-design"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Frontend Development</h3>
+                <p>
+                  Creating responsive, interactive interfaces with React, HTML5,
+                  CSS3, Bootstrap, and JavaScript.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-app-development"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Backend Development</h3>
+                <p>
+                  Developing secure REST APIs, authentication systems, and
+                  server-side applications with Node.js and Express.js.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-computer"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Database Management</h3>
+                <p>
+                  Designing and managing MongoDB databases with efficient data
+                  models and optimized queries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-vector"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Responsive Web Design</h3>
+                <p>
+                  Building mobile-first, responsive websites that deliver a
+                  great experience on every device.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-zoom"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">API Integration</h3>
+                <p>
+                  Integrating third-party APIs including payment gateways,
+                  authentication services, and cloud-based solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-suitcase"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Admin Dashboard Development</h3>
+                <p>
+                  Creating modern admin dashboards with analytics,
+                  authentication, and CRUD functionality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div
+              class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate"
+            >
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="flaticon-calendar"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Performance Optimization</h3>
+                <p>
+                  Optimizing website speed, accessibility, SEO fundamentals, and
+                  overall application performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-hireme">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-8 col-lg-8 d-flex align-items-center">
+            <div class="w-100 py-4">
+              <h2>Ready to launch your next web project?</h2>
+              <p>
+                Let’s build fast, modern, and scalable MERN applications that
+                solve real business problems.
+              </p>
+              <p class="mb-0">
+                <a href="#contact-section" class="btn btn-white py-3 px-4"
+                  >Contact me</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 d-flex align-items-end"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-project" id="projects-section">
+      <div class="container-fluid px-md-4">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <span class="subheading">Accomplishments</span>
+            <h2 class="mb-4">My Projects</h2>
+            <p>
+              Explore a selection of my recent full-stack and frontend projects,
+              built using React, Next.js, Node.js, Express, MongoDB, and modern
+              web technologies. Each project highlights my focus on clean code,
+              responsive design, performance, and delivering practical
+              solutions.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/WildOasisReact.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://wildoasis-hotel-management.netlify.app/"
+              data-github="https://github.com/naveedahmaddevcodes/WildOasisReact"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>Wild Oasis</h3>
+                <span class="d-block">A modern hotel management dashboard</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://wildoasis-hotel-management.netlify.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/WildOasisReact"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/NatoursBack.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://natoursbackendproject-production-2a64.up.railway.app/"
+              data-github="https://github.com/naveedahmaddevcodes/Natours-FB"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>Natours</h3>
+                <span class="d-block">Full-stack tours booking platform</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://natours-fb-production.up.railway.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/Natours-FB"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/ShopHub1.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://shophub-ecom-web.netlify.app/"
+              data-github="https://github.com/naveedahmaddevcodes/ShopHub-FB"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>ShopHub</h3>
+                <span class="d-block">Sleek e-commerce storefront</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://shophub-ecom-web.netlify.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/ShopHub-FB"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/WildOasisNext.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://wildoasis-nextjs.netlify.app/"
+              data-github="https://github.com/naveedahmaddevcodes/WildOasis-Nextjs"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>Wild Oasis Next</h3>
+                <span class="d-block">Next.js cabin booking experience</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://wildoasis-nextjs.netlify.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/WildOasis-Nextjs"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/FastReactPizza.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://fast-react-pizza-res.netlify.app/"
+              data-github="https://github.com/naveedahmaddevcodes/Fast-React-Pizza"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>Fast React Pizza</h3>
+                <span class="d-block">Fast pizza ordering app</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://fast-react-pizza-res.netlify.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/Fast-React-Pizza"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+              style="
+                background-image: url(images/kingrox.png);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                cursor: pointer;
+              "
+              data-live="https://kingrox.netlify.app/"
+              data-github="https://github.com/naveedahmaddevcodes/KingRox"
+            >
+              <div class="overlay"></div>
+              <div class="text text-center p-4">
+                <h3>King Rox</h3>
+                <span class="d-block">Modern brand landing page</span>
+                <a
+                  href="#"
+                  class="live-link d-inline-block mr-3 mt-2"
+                  data-live="https://kingrox.netlify.app/"
+                  target="_blank"
+                  ><span class="fa fa-external-link mr-2"></span>Live Demo</a
+                >
+                <a
+                  href="#"
+                  class="github-link d-inline-block mt-2"
+                  data-github="https://github.com/naveedahmaddevcodes/KingRox"
+                  target="_blank"
+                >
+                  <span class="fa fa-github mr-2"></span>View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="ftco-section contact-section ftco-no-pb"
+      id="contact-section"
+    >
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Contact us</span>
+            <h2 class="mb-4">Have a Project?</h2>
+            <p>
+              I'm always open to discussing new projects, freelance
+              opportunities, or full-time roles. Send me a message, and I'll get
+              back to you as soon as possible.
+            </p>
+          </div>
+        </div>
+
+        <div class="row block-9">
+          <div class="col-md-8">
+            <form
+              id="contact-form"
+              action="#"
+              method="POST"
+              novalidate
+              class="bg-light p-4 p-md-5 contact-form"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea
+                      name="message"
+                      cols="30"
+                      rows="7"
+                      class="form-control"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                    <input type="hidden" name="time" />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <button
+                      id="submit-btn"
+                      type="submit"
+                      class="btn btn-primary py-3 px-5"
+                    >
+                      <span class="button-text">Send Message</span>
+                      <span class="js-spinner" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4 d-flex pl-md-5">
+            <div class="row">
+              <div class="dbox w-100 d-flex">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="fa fa-map-marker"></span>
+                </div>
+                <div class="text">
+                  <p><span>Address:</span> 7th-Road, Rawalpindi, PK</p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="fa fa-phone"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Phone:</span>
+                    <a href="tel:+923069829900">+92-306-9829900</a>
+                  </p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="fa fa-paper-plane"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Email:</span>
+                    <a href="mailto:naveedahmad.codes@gmail.com"
+                      >naveedahmad.codes@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="fa fa-whatsapp"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>WhatsApp</span>
+                    <a href="https://wa.me/923069829900" target="_blank"
+                      >+92-306-98-29900</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- <div id="map" class="map"></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".project").forEach((tile) => {
+          tile.style.cursor = tile.style.cursor || "pointer";
+
+          tile.addEventListener("click", (event) => {
+            if (
+              event.target.closest(".github-link") ||
+              event.target.closest(".live-link")
+            ) {
+              return;
+            }
+
+            const live = tile.getAttribute("data-live");
+            if (live) {
+              window.open(live, "_blank");
+            }
+          });
+
+          const gh = tile.querySelector(".github-link");
+          if (gh) {
+            const url =
+              gh.getAttribute("data-github") ||
+              tile.getAttribute("data-github");
+            if (url) {
+              gh.setAttribute("href", url);
+              gh.setAttribute("target", "_blank");
+            }
+            gh.addEventListener("click", (event) => event.stopPropagation());
+          }
+
+          const liveA = tile.querySelector(".live-link");
+          if (liveA) {
+            const liveUrl =
+              liveA.getAttribute("data-live") || tile.getAttribute("data-live");
+            if (liveUrl) {
+              liveA.setAttribute("href", liveUrl);
+              liveA.setAttribute("target", "_blank");
+            }
+            liveA.addEventListener("click", (event) => event.stopPropagation());
+          }
+        });
+
+        const form = document.getElementById("contact-form");
+        const submitBtn = document.getElementById("submit-btn");
+        const buttonText = submitBtn?.querySelector(".button-text");
+        const spinner = submitBtn?.querySelector(".js-spinner");
+
+        const EMAILJS_SERVICE_ID = "service_it0f108";
+        const EMAILJS_TEMPLATE_ID = "template_nieezfi";
+        const EMAILJS_PUBLIC_KEY = "0siTECA-lDM7Z3GYH";
+
+        if (window.emailjs) {
+          emailjs.init(EMAILJS_PUBLIC_KEY);
+        }
+
+        const isValidEmail = (value) => {
+          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+        };
+
+        const setSubmitState = (isSending) => {
+          if (!submitBtn) return;
+          submitBtn.disabled = isSending;
+          if (buttonText) {
+            buttonText.textContent = isSending ? "Sending..." : "Send Message";
+          }
+          if (spinner) {
+            spinner.classList.toggle("is-visible", isSending);
+          }
+        };
+
+        const showPopup = (icon, title, text) => {
+          return Swal.fire({
+            icon,
+            title,
+            text,
+            confirmButtonColor: "#3085d6",
+          });
+        };
+
+        const validateForm = () => {
+          if (!form) return false;
+
+          const name = form.elements.name?.value.trim();
+          const email = form.elements.email?.value.trim();
+          const subject = form.elements.subject?.value.trim();
+          const message = form.elements.message?.value.trim();
+
+          if (!name) {
+            showPopup("error", "Name required", "Please enter your name.");
+            return false;
+          }
+
+          if (!email) {
+            showPopup(
+              "error",
+              "Email required",
+              "Please enter your email address.",
+            );
+            return false;
+          }
+
+          if (!isValidEmail(email)) {
+            showPopup(
+              "error",
+              "Invalid email",
+              "Please enter a valid email address.",
+            );
+            return false;
+          }
+
+          if (!subject) {
+            showPopup("error", "Subject required", "Please enter a subject.");
+            return false;
+          }
+
+          if (!message) {
+            showPopup("error", "Message required", "Please enter a message.");
+            return false;
+          }
+
+          return true;
+        };
+
+        const handleSubmit = async (event) => {
+          event.preventDefault();
+          if (!form) return;
+
+          if (!validateForm()) {
+            return;
+          }
+
+          const timeField = form.elements.time;
+          if (timeField) {
+            timeField.value = new Date().toLocaleString();
+          }
+
+          setSubmitState(true);
+
+          try {
+            await emailjs.sendForm(
+              EMAILJS_SERVICE_ID,
+              EMAILJS_TEMPLATE_ID,
+              form,
+            );
+
+            await showPopup(
+              "success",
+              "Message sent successfully",
+              "Your message has been sent successfully. I will get back to you as soon as possible.",
+            );
+
+            form.reset();
+          } catch (error) {
+            console.error("EmailJS error:", error);
+            await showPopup(
+              "error",
+              "Something went wrong",
+              "Please try again.",
+            );
+          } finally {
+            setSubmitState(false);
+          }
+        };
+
+        form?.addEventListener("submit", handleSubmit);
+      });
+    </script>
+  </body>
+</html>
